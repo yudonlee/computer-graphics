@@ -26,24 +26,24 @@ default mode는 Flat shading이며, key 's'를 통해서 두개 모드를 번갈
 
 - 이때 polygon optimization을 위해, quad 이상의 polygon들은 triangulation algorithm을 이용하여 4개 이상의 vertex로 이루어진 face를 분리합니다.
 
-|     Flat Shading      |           Smooth Shading            |
-| :-------------------: | :---------------------------------: |
-| ![](./Image/boat.png) | ![](./Image/afterSmoothShading.png) |
+|                                         Flat Shading                                         |                                               Smooth Shading                                               |
+| :------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------: |
+| ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/boat.png) | ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/afterSmoothShading.png) |
 
 ## 2) WireFrame mode
 
 renderintl, default는 glPolygonMode에서 GL_LINE으로 설정되며, key 'z'가 입력된다면 GL_FILL이 활성화되어 wireframe mode가 종료됩니다.
 
-|         WireFrame mode         |      Normal Mode      |
-| :----------------------------: | :-------------------: |
-| ![](./Image/wireframeMode.png) | ![](./Image/boat.png) |
+|                                            WireFrame mode                                             |                                         Normal Mode                                          |
+| :---------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------: |
+| ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/wireframeMode.png) | ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/boat.png) |
 
 # 2. Animating hierarchical model render mode
 
 key 'h'를 누를 시, animating hierarhcical mode가 작동되어, 계층구조로 설정된 "Boat"가 렌더링됩니다.
 전체적인 구성은 바다를 가르는 보트를 형상화했습니다.
 해당 boat는 anchor, motor_fan, rope등으로 구성됩니다
-![](./Image/hierarchicalStructure.jpeg)
+![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/hierarchicalStructure.jpeg)
 
 - 위 그림과 같이 본 계층구조 모델은, root인 boat를 기준으로 이루어집니다. matrix stack에 따라, root인 boat가 움직이면 anchor, motor_fan, rope등이 동일하게 움직입니다.
 - moter_fan은 root인 boat에 따라 움직이는 동시에, rotate의 모션이 추가되어 움직이는 모터팬의 모션이 나타납니다.
@@ -51,4 +51,4 @@ key 'h'를 누를 시, animating hierarhcical mode가 작동되어, 계층구조
 
 # 3. Animation 결과
 
-<img width="80%" src="./Image/animation.gif"/>
+<img width="80%" src="https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/animation.gif"/>
