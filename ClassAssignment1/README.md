@@ -30,14 +30,14 @@ target point와 camera를 상하좌우로 이동시키는 것이다.
 
 |                                            initial State                                             |                                            After Panning                                             |
 | :--------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------: |
-| ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/Image/initialState.png) | ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/Image/afterPanning.png) |
+| ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/initialState.png) | ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/afterPanning.png) |
 
 # 3. Zooming(mouse scroll wheel up or down)
 
 target point를 기준으로 카메라가 target point에 가깝거나, 멀리가게 된다.
 Zoom in | Zoom out
 :-------------------------:|:-------------------------:
-![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/Image/afterZoomIn.png) | ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/Image/afterZoomOut.png)
+![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/afterZoomIn.png) | ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/afterZoomOut.png)
 
 # 4. projection mode
 
@@ -47,4 +47,4 @@ v키를 입력받게 되면, perspective projection과 orthgonal perspective pro
 
 |                                        Perspective Projection                                        |                                 Orthogonal perspecrive Projection                                  |
 | :--------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: |
-| ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/Image/initialState.png) | ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/Image/orthogonal.png) |
+| ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/initialState.png) | ![](https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/orthogonal.png) |
