@@ -11,4 +11,5 @@ This is my project assignment for 2021 Spring in Hanyang University
 
 - ClassAssignment3      
   [Bvh viewer](https://github.com/yudonlee/computer-graphics/tree/main/ClassAssignment3 "BvhViewer")     
-<img width="80%" src="https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/bvh_animation.gif"/>
+<img width="80%" src="https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment3/Image/bvh_animation.gif"/>
+
