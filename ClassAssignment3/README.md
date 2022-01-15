@@ -19,7 +19,7 @@ glfw
 
 - Animating mode일 땐 glPushMatrix()와 glPopMatrix()를 통해 glRotate와 glTranslatef를 사용하여 offset 위치를 계산하였다.
 
-<img width="80%" src="https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/t-shape.png"/>
+<img width="80%" src="https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment3/Image/t-shape.png"/>
 
 # 2. Animating hierarchical model rendering
 
@@ -35,4 +35,4 @@ key 'space bar'를 누를 시, animating mode가 활성화 된다.
 
 # 3. rendering 결과
 
-<img width="80%" src="https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment1/image/bvh_animation.gif"/>
+<img width="80%" src="https://github.com/yudonlee/computer-graphics/blob/main/ClassAssignment3/Image/bvh_animation.gif"/>
